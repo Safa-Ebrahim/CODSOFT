@@ -1,0 +1,393 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:35px 12%;
+    background: rgba(0,0,0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100; 
+}
+.logo{
+    font-size:25px;
+    color:white;
+    font-weight: 600;
+    transition:0.3s ease;
+}
+.logo:hover{
+    color:brown;
+    text-shadow: 0 0 25px brown;
+    transform: scale(1.1);
+}
+.navbar a{
+    font-size: 20px;
+    color:white;
+    font-weight: 500;
+    margin:0 20px;
+    border-bottom: 3px solid transparent;
+    transition:0.3s ease;
+ }
+ .navbar a:hover{
+    color:brown;
+    border-bottom: 3px solid brown;
+ }
+ .contact{
+    padding:10px 28px;
+    background-color:white;
+    color:black !important;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition:0.3s ease;
+}
+.contact:hover{
+    background-color: brown;
+    box-shadow: 0 0 25px brown;
+    color:white;
+}
+.home{
+    width:100%;
+    background: white;
+    display:flex;
+    align-items: center;
+    gap:10em;
+    padding:200px 150px 150px;
+    
+    
+}
+.home-content h2{
+    font-size:60px;
+    font-weight: 30px;
+    margin:10px 0px 10px;
+
+}
+.home p{
+    font-size: 50px;
+}
+span{
+    color:brown;
+}
+.home-content h3{
+    font-size: 50px;
+    font-weight: 35px;
+}
+.btn-box{
+    width:450px;
+    display: flex;
+    border-color: white;
+}
+.btn{
+    padding:20px 20px;
+    background-color:black;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    transition:0.2s ease;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.btn:hover{
+    color: brown;
+}
+.img-box img{
+    border-radius: 50%;
+    width:300px;
+    border: 1px solid;
+    border-color:bisque;
+    margin:10px 0px 10px;
+    
+
+}
+
+#about{
+    padding: 80px 0;
+    color: white;
+    background-color:black;
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    
+
+}
+.about-col1{
+    flex-basis: 35%;
+    
+    
+}
+.about-col1 img{
+    width:75%;
+    border-radius: 20px;
+    background-color: beige;
+    margin-left: 60px;
+    flex-basis: 35%;
+    
+}
+.about-col2{
+    flex-basis: 60%;
+    
+    
+    
+}
+.subtitle{
+    font-size: 50px;
+
+    
+    
+}
+.about-para{
+    
+    font-size: 20;
+    font-weight: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+#skill {
+    padding: 30px 0;
+    color: black;
+}
+
+.skill-subtitle {
+    font-size: 50px;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 30px;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 2em; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    justify-content: center;
+}
+
+.skill-list div {
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center; 
+    width: 100%; 
+    max-width: 400px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.skill-list div:hover {
+    background: brown;
+    transform: translateY(-10px);
+}
+
+.skill-list div i {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.skill-list div h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.skill-list div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list div ul li {
+    margin: 10px 0;
+}
+
+.skill-list div ul li button {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.skill-list div ul li button:hover {
+    background: brown;
+    color: white;
+    transform: translateY(-5px);
+}
+
+
+
+#project{
+    padding:50px 0;
+    
+
+}
+.project-content{
+    background-color:white;
+}
+.project-col1{
+    font-size: 50px;
+    margin-left: 550px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.project-list{
+    display:flex;
+    flex-direction: column;
+
+}
+.project-list img{
+    border-style: ridge;
+    border-color: black;
+    margin-top: 20px;
+    height:300px;
+    width:550px;
+    margin-left: 450px;
+    text-align: center;
+    
+
+}
+.project-para{
+    font-size: 20px;
+    font-weight: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 300px;
+    color: black;
+    margin: 0 auto; 
+    max-width: 80%
+}
+.project-para1{
+    font-size: 20px;
+    font-weight: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 450px;
+    color: black;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%
+}
+
+.contact1{
+    flex-basis: 35%;
+}
+.contact2{
+    flex-basis:60%;
+
+}
+.container-1{
+    margin-left: 550px;
+}
+.sub-title{
+    font-size: 25px;
+    display: block;
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.about-para{
+    text-align: justify;
+    font-size: 20px;
+}
+.contact1 p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    
+}
+.contact1 p i{
+    color: black;
+    
+    font-size: 35px;
+    display: inline-flex;
+
+}
+.social-icon{
+    margin-top: 30px;
+
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:#ababab;
+    display: inline-block;
+    
+}
+.social-icon a:hover{
+    color: brown;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    border: solid;
+    border-color: white;
+}
+.contact2 form{
+    width: 100%;
+}
+form input, form textarea{
+    width:50%;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    outline: none;
+    background:black;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 20px;
+
+}
+.btn-2{
+    background-color:black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 150px;
+    font-size: 20px;
+    border-color: black;
+    color: white;
+}
+.btn-2 button:hover{
+    color: brown;
+    cursor: pointer;
+}
+.copyright{
+    
+   
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    background:black;
+    font-weight: 300;
+    margin-top: 20px;
+    max-width: 100%;
+}
+.copyright-para{
+    margin-left: 95px;
+} 
